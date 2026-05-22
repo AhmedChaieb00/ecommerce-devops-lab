@@ -3,7 +3,7 @@
 # Replace the bucket name with the unique name you created.
 terraform {
   backend "s3" {
-    bucket       = "ecommerce-tfstate-amine-7421"
+    bucket       = "ecommerce-tfstate-ahmed-3652"
     key          = "ecommerce-devops/terraform.tfstate"
     region       = "us-east-1"
     use_lockfile = true
